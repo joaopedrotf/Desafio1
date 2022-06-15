@@ -73,98 +73,98 @@ nav > a:hover{ /* quando se passa o mause por cima */
     text-decoration: underline; /* coloca o sublinhado */
 
 }
-main{
-    min-width: 300px;
-    max-width: 1000px;
-    margin: auto;
-    margin-bottom: 30px;
-    padding: 20px;
-    background-color: white;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.315);
-    border-radius: 0px 0px 10px 10px;
+main{ /* formata o main */
+    min-width: 300px; /* define a largura minima  */
+    max-width: 1000px; /* define a largura maxima  */
+    margin: auto; /* coloca o conteudo no centro  */
+    margin-bottom: 30px; /* define uma margem em baixo entre o main e o footer  */
+    padding: 20px;  /* define um espaço nas laterais do corpo */
+    background-color: white; /* define a cor de fundo do corpo */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.315); /* coloca uma sobra na caixa */
+    border-radius: 0px 0px 10px 10px; /* coloca uma borda arredondada somente na parte de baixo do corpo  */
 }
-main img{
-    width: 100%;
+main img{ /* formata as imagens do main */
+    width: 100%; /* faz com que as imagens tenham largura maxima na tela fazendo o site ser responsivo */
 }
-main p{
-    margin: 15px 0px;
-    text-align: justify;
-    text-indent: 40px;
-    line-height: 1.3em;
+main p{ /* formata os paragrafos main */
+    margin: 15px 0px; /* define margem de 15px em cima e em baixo do paragrafo */
+    text-align: justify; /* formata o texto como jutificado */
+    text-indent: 40px; /* cria o recuo do paragrafo */
+    line-height: 1.3em; /* gera um espaçamento entre linhas no paragrafo */
 
 }
-main strong{
-    color: var(--cor4);
-    font-weight: bold;
+main strong{ /* formata as palavras ou experssoes em destaque */
+    color: var(--cor4); /* muda de cor do texto */
+    font-weight: bold; /* coloca o peso em negrito  */
     
 }
-main a{
-    text-decoration: none;
-    font-weight: bold;
-    color: var(--cor5);
-    background-color: var(--cor0);
-    padding: 2px 6px;
+main a{ /* formata os links externos no corpo */
+    text-decoration: none; /* tira o sublinhado */
+    font-weight: bold; /* coloca o peso em negrito  */
+    color: var(--cor5);  /* muda de cor do texto */
+    background-color: var(--cor0); /* muda de cor do fundo */
+    padding: 2px 6px; /* define um espaço de 2px de largura e 6px de comprimento do corpo */
 }
-main a:hover{
-    background-color: var(--cor3);
-    color: var(--cor5);
-    text-decoration: underline;
+main a:hover{ /* quando passa o mouse por cima */
+    background-color: var(--cor3); /* define um espaço nas laterais do corpo */
+    color: var(--cor5); /* muda de cor do fundo */
+    text-decoration: underline; /* coloca o sublinhado */
 }
-.pequena{
-    max-width: 350px;
-    display: block;
-    margin: auto;
+.pequena{  /* formata a imagem com class="pequena" */
+    max-width: 350px; /* define a largura maxima */
+    display: block; /* define a imagem como um bloco */
+    margin: auto; /* centraliza o bloco em relação ao site */
 }
-main h1{
-    font-family: var(--fonte-android);
-    color: var(--cor5);
-    background-image: linear-gradient(to left, var(--cor2), transparent);
+main h1{ /* formata o titulo h1 */
+    font-family: var(--fonte-android); /* define a fonte */
+    color: var(--cor5); /* define a cor */
+    background-image: linear-gradient(to left, var(--cor2), transparent); /* faz um degrade para esquerda de cor 2 para transparente */
 }
-main h2{
-    font-family: var(--fonte-android);
-    color: var(--cor4);
-    font-size: 1.3em;
-    background-image: linear-gradient(to left, var(--cor1), transparent);
+main h2{ /* formata o titulo h2 */
+    font-family: var(--fonte-android); /* define a fonte */
+    color: var(--cor4); /* define a cor */
+    font-size: 1.3em; /* define o tamanho da fonte */
+    background-image: linear-gradient(to left, var(--cor1), transparent);  /* faz um degrade para esquerda de cor 2 para transparente */
 }
-.video{
-    background-color: var(--cor4);
-    margin: 0px -20px 30px -20px;
-    padding: 20px;
-    padding-bottom: 56%;
-    position: relative;
+.video{ /* formata o video */
+    background-color: var(--cor4); /* define a cor */
+    margin: 0px -20px 30px -20px; /* define o fundo do video com margens */
+    padding: 20px; /* define tamanho das margens */
+    padding-bottom: 56%; /* o tamanho da tela do video */
+    position: relative; /* macete para mudar o tamanho do video */
 
 }
-.video > iframe{
-    position: absolute;
-    top: 5%;
-    left: 5%;
-    width: 90%;
-    height: 90%;
+.video > iframe{ /* formata o video */
+    position: absolute; /* macete para mudar o tamanho do video */
+    top: 5%; /* define a porcentagem que o video tera em relação ao fundo parte de cima */
+    left: 5%;  /* parte da lateral */
+    width: 90%; /*LARGURA*/
+    height: 90%; /*ALTURA*/
 }
-aside{
-    background-color: var(--cor1);
-    padding: 10px;
-    border-radius: 10px;
-    list-style-position: inside; 
-    box-shadow: 3px 3px 8px var(--cor5);
+aside{ /* formata o conteudo periferico */
+    background-color: var(--cor1); /* define a cor */
+    padding: 10px; /* define tamanho das margens */
+    border-radius: 10px; /* coloca uma borda arredondada no conteudo */
+    list-style-position: inside; /* coloca os marcadores da lita dentro do frame */
+    box-shadow: 3px 3px 8px var(--cor5);/* coloca uma sobra na caixa */
     
 }
-aside > h3{
-    background-color: var(--cor4);
-    color: white;
-    padding: 10px;
-    margin: -10px -10px 0px -10px;
-    border-radius: 10px 10px 0px 0px;
+aside > h3{ /* formata o titulo do conteudo periferico */
+    background-color: var(--cor4); /* define a cor de fundo */
+    color: white; /* define a cor das letras */
+    padding: 10px; /* define tamanho das margens */
+    margin: -10px -10px 0px -10px; /* define a borda maior que a padrão e usa todo o frame */
+    border-radius: 10px 10px 0px 0px; /* coloca uma borda arredondada na parte de cima */
 }
-aside > ul{
-    list-style-type: '\2714\00a0';
-    columns: 2;
+aside > ul{ /* formata os marcadores da lista */
+    list-style-type: '\2714\00a0';  /* define o simbolo dos marcadores da lista e um espaço \2714 cod do simbolo \00a0 codigo do espaço*/
+    columns: 2; /* divide em duass colunas */
     
 }
  
-footer{
-    background-color: var(--cor5);
-    color:white;
-    text-align: center;
-    padding: 5px;
+footer{ /* formata o rodape da pagina */
+    background-color: var(--cor5); /* define a cor de fundo */
+    color:white; /* define a cor das letras */
+    text-align: center; /* alinha o texto centralizado */
+    padding: 5px; /* define as margens do */
 }
