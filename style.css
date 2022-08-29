@@ -59,21 +59,27 @@ nav{ /* formatação do menu de vagegação */
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.315); /* coloca uma sobra na caixa */
 
 }
-nav > a{ /* formatação dos links do menu */
+nav > ul > li > a{ /* formatação dos links do menu */
+    display: block;
     color: var(--cor1); /* define a cor da fonte*/
     padding: 10px; /* define um espaço entre os links do menu */
     font-weight: bold; /* define a fonte como negrito */
     border-radius: 5px 5px 0px 0px; /* define uma borda arredondada em cada link do menu somente na parte de cima*/
     text-decoration: none; /* retira o sublinhado padrão do link */
     transition-duration: 1s; /* coloca uma animação de 1 seg quando se passa o mouse sobre o link */
+    text-align: center;
 }
-nav > a:hover{ /* quando se passa o mause por cima */
+nav > ul > li > a:hover { /* quando se passa o mause por cima */
     background-color: var(--cor3); /* muda a cor de fundo */
     color: var(--cor5); /* muda a cor das letras */
     text-decoration: underline; /* coloca o sublinhado */
 
 }
+nav > ul {
+    list-style-type: none;
+}
 main{ /* formata o main */
+    
     min-width: 300px; /* define a largura minima  */
     max-width: 1000px; /* define a largura maxima  */
     margin: auto; /* coloca o conteudo no centro  */
@@ -109,6 +115,19 @@ main a:hover{ /* quando passa o mouse por cima */
     background-color: var(--cor3); /* define um espaço nas laterais do corpo */
     color: var(--cor5); /* muda de cor do fundo */
     text-decoration: underline; /* coloca o sublinhado */
+}
+i#burguer {
+    background-color: var(--cor4);
+    color: var(--cor1);
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+i#burguer:hover {
+    background-color: var(--cor1);
+    color: var(--cor4);
 }
 .pequena{  /* formata a imagem com class="pequena" */
     max-width: 350px; /* define a largura maxima */
